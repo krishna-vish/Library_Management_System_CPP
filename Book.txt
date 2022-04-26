@@ -1,0 +1,7 @@
+1 ModernOS SJM VGEC
+2 Let'sC APP VGEC
+3 ComputerNetworks TRP VGEC
+4 ArtificialIntelligence SAV VGEC
+7 0007 00007 000007
+0404 0404 0404 0404
+1 dasdasd asdasda asdasdsa
