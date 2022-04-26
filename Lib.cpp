@@ -22,11 +22,17 @@ class Book
 			
 			if(writeToFile)
 			{
+				write();
+			}
+			}
+			void write()
+			{
 				ofstream out;
 				out.open("Book.txt", std::fstream::app);
 				out<<bid<<" "<<name<<" "<<author<<" "<<publisher<<endl;
 				out.close();
-			}
+
+				}
 		}
 };
 
@@ -746,12 +752,12 @@ ifstream in;
 in.open("Book.txt");
 	while(!in.eof())
 				{
-					string book;
-					getline(in,book);
+					string text;
+					getline(in,text);
 	
-					if(book.length() > 0)
+					if(text.length() > 0)
 					{
-						stringstream ss(book);
+						stringstream ss(text);
 						string bid, name, author, publisher;
 						ss>>bid>>name>>author>>publisher;
 			
